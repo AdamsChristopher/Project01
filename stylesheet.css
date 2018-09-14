@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #343a40;
+}
+
+  a:hover {
+    color: #b1aeae;
+}
+
+#socialNav a+a {
+    margin-left: 0.5em;
+
+}
+
+#socialNav a {
+    display: inline-block;
+}
