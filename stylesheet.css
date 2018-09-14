@@ -1,0 +1,20 @@
+@media screen and (min-width: 992px)
+{
+	hr
+	{
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 992px)
+{
+	.barrepub
+	{
+		display: none;
+	}
+}
+
+.barrepub
+{
+	border: 3px black solid
+}
