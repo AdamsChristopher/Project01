@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
@@ -22,3 +23,22 @@ a {
 #socialNav a {
     display: inline-block;
 }
+
+.titreArticle{
+    font-size: 1.3em;
+    height: auto;
+}
+
+.texteArticle{
+    text-align: justify;
+}
+
+.blocArticle{
+    margin: 5px;
+}
+
+.formulaireContact{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
