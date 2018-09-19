@@ -27,7 +27,7 @@
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="col-2">
-                        <a class="navbar-brand" href="#">NOM DU BLOG</a>
+                        <a class="navbar-brand" href="index.html">NOM DU BLOG</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -217,10 +217,38 @@
                             </div>
                             <div class="row pt-2">
                                 <div class="col-12">
-                                    <a href="" class="btn btn-sm btn-dark float-right">Comment</a>
+                                    <button type="button" class="btn btn-dark float-right" data-toggle="modal" data-target="#exampleModalCenter">Commenter</button>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalCenterTitle">Laisser un commentaire :</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="formulaireContact">
+                                                <div class="form-group">
+                                                    <label for="name">Nom :</label>
+                                                    <input type="text" class="form-control" id="name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="textarea">Votre commentaire :</label>
+                                                    <textarea class="form-control" id="textarea" rows="3"></textarea>
+                                                </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-dark" data-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-dark">Envoyer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                     </div>
                 </div>

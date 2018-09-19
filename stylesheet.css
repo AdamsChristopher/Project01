@@ -79,7 +79,7 @@ a:hover {
 }
 
 #socialHead a:hover {
-	color: #b1aeae;
+	color: #343a40;
 }
 
 #navbarNavAltMarkup .nav-item {
@@ -92,6 +92,11 @@ a:hover {
 
 #carouselExampleControls {
 	margin-top: 98px;
+
+}
+
+.card-header {
+border-bottom: none;
 
 }
 
@@ -112,6 +117,11 @@ a:hover {
 #contact .card {
 	background: #FFFFFF;
 	border-color: #FFFFFF;
+
+}
+
+.modal-content {
+	border: none;
 
 }
 
