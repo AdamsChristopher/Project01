@@ -35,7 +35,6 @@ a {
 
 a:hover {
 	color: #b1aeae;
-	
 
 }
 
@@ -52,7 +51,7 @@ a:hover {
 
 .navGroup {
 	background: #e91e63;
-	box-shadow: 0 7px 28px -5px #ADA8A8;
+
 }
 
 .navTop {
@@ -106,6 +105,7 @@ border-bottom: none;
 	margin-right: 30px;
 	border-radius: 6px;
 	box-shadow: 0 16px 28px 2px #ADA8A8;
+
 }
 
 .article .card {
@@ -120,9 +120,18 @@ border-bottom: none;
 
 }
 
+.modal-header {
+	border-bottom: none;
+
+}
+
 .modal-content {
 	border: none;
 
+}
+
+.modal-footer {
+	border-top: none;
 }
 
 .btn {
