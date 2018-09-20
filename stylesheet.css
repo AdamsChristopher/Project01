@@ -94,8 +94,13 @@ a:hover {
 
 }
 
+
 .card-header {
 border-bottom: none;
+
+
+.carousel-inner {
+	max-height: 500px;
 
 }
 
